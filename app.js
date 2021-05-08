@@ -133,7 +133,8 @@ function setBackToDefault() {
 
 //**Local storage */
 function addToLocalStorage(id, value) {
-    console.log('added to local storage');
+    const grocery = {id, value};
+    console.log(grocery);
 }
 
 function removeFromLocalStorage(id) {
@@ -143,3 +144,6 @@ function removeFromLocalStorage(id) {
 function editLocalStorage(id, value) {
 
 }
+
+//localStorage API
+
